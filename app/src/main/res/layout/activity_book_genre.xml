@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gutenberg.viewModel.BookGenreViewModel" />
+    </data>
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingBottom="20dp"
+           android:background="@color/titan_white"
+           android:orientation="vertical"
+           tools:context=".BookGenreActivity">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_marginTop="10dp"
+               android:padding="10dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/ic_pattern"
+               android:orientation="vertical">
+
+               <androidx.appcompat.widget.AppCompatTextView
+                   style="@style/lbl_heading1" />
+
+               <androidx.appcompat.widget.AppCompatTextView
+                   style="@style/genre_card" />
+           </LinearLayout>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/rvBookCategory"
+               app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+               app:listData="@{viewModel.listBookGenre}"
+               style="@style/recyclerview_books"
+               tools:itemCount="10"
+               tools:listitem="@layout/row_book_genre"
+               tools:targetApi="lollipop" />
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+</layout>

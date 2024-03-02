@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-ktx:8.1.4@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/caches/transforms-3/bb32c3bb36dbbbb58eea8d4c23c78c98/transformed/databinding-ktx-8.1.4/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/bin/caches/transforms-3/bb32c3bb36dbbbb58eea8d4c23c78c98/transformed/databinding-ktx-8.1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/caches/modules-2/files-2.1/androidx.databinding/databinding-ktx/8.1.4/41fb80186fa3b464a36aba25b298f5f34f25e34/databinding-ktx-8.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

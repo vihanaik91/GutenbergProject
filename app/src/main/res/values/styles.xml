@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="lbl_heading1">
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@color/royal_blue</item>
+        <item name="android:text">@string/gutenberg_project</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="lbl_heading2">
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="genre_card">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:text">@string/card_label</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="body">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="search_box">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/silver_chalice</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="book_name">
+        <item name="fontFamily">@font/montserrat_semi_bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="book_author">
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/silver_chalice</item>
+    </style>
+
+    <style name="recyclerview_books">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:nestedScrollingEnabled" tools:targetApi="lollipop">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="reverseLayout">false</item>
+    </style>
+
+    <style name="back_icon">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="cancel_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="next_icon">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="books_icon">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="background">@color/white</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+</resources>

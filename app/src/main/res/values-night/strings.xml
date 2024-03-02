@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gutenberg_project">Gutenberg Project</string>
+    <string name="card_label">A social cataloging website that allows you to freely search its database of books, annotations, and reviews.</string>
+    <string name="search">Search</string>
+</resources>
